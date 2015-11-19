@@ -1,0 +1,61 @@
+{
+  "name": "vscode-stylus",
+  "description": "Stylus Language Support for Visual Studio Code",
+  "version": "0.1.0",
+  "author": "Vitor Buzinaro",
+  "publisher": "Vitor Buzinaro",
+  "engines": {
+    "vscode": "^0.10.1"
+  },
+  "categories": [
+    "Languages",
+    "Other"
+  ],
+  "activationEvents": [
+    "onCommand:extension.sayHello"
+  ],
+  "main": "./out/src/extension",
+  "contributes": {
+    "languages": [
+      {
+        "id": "stylus",
+        "aliases": [
+          "Stylus",
+          "stylus"
+        ],
+        "extensions": [
+          ".styl",
+          ".stylus"
+        ],
+        "configuration": "./stylus.configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "stylus",
+        "scopeName": "source.stylus",
+        "path": "./syntaxes/stylus.tmLanguage"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "node ./node_modules/vscode/bin/compile",
+    "compile": "node ./node_modules/vscode/bin/compile -watch -p ./"
+  },
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "tslint-eslint-rules": "^0.3.0",
+    "typescript": "^1.6.2",
+    "vscode": "0.10.x"
+  },
+  "keywords": [
+    "vscode",
+    "stylus",
+    "vs-code",
+    "extension",
+    "vscode-extension",
+    "vscode-stylus",
+    "language-support",
+    "stylus-intellisense"
+  ]
+}
