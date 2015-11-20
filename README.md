@@ -1,5 +1,5 @@
 # vscode-stylus
-![logo](https://raw.githubusercontent.com/buzinas/vscode-stylus/master/images/vscode-stylus.png)
+![logo](https://raw.githubusercontent.com/buzinas/vscode-stylus/master/images/stylusIcon.png)
 
 ## Stylus Language Support for Visual Studio Code
 The only extension you'll ever need for Stylus support in Visual Studio Code.

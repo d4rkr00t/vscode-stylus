@@ -16,11 +16,11 @@
     "type": "git",
     "url": "https://github.com/buzinas/vscode-stylus.git"
   },
-  "issues": "https://github.com/buzinas/vscode-stylus/issues",
+  "bugs": "https://github.com/buzinas/vscode-stylus/issues",
   "activationEvents": [
     "onLanguage:stylus"
   ],
-  "icon": "images/vscode-stylus.png",
+  "icon": "images/stylusIcon.png",
   "main": "./out/src/extension",
   "contributes": {
     "languages": [
