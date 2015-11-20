@@ -27,6 +27,7 @@ Just [open an issue](https://github.com/buzinas/vscode-stylus/issues).
 If you found a bug, and want to help, first, open an issue.
 
 As soon as your issue is accepted, if you wanna help with the development, you must follow these steps:
+
 1. Go to the accepted open issue, and comment that you're going to contribute.
 - Fork this repository
 - Clone your fork to a local git. E.g: `git clone https://github.com/[your-name]/vscode-stylus.git`
