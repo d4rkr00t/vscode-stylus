@@ -21,6 +21,7 @@
     "onLanguage:stylus"
   ],
   "icon": "images/stylusIcon.png",
+  "license": "MIT",
   "main": "./out/src/extension",
   "contributes": {
     "languages": [
