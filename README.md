@@ -1,5 +1,5 @@
 # vscode-stylus
-![logo](https://raw.githubusercontent.com/buzinas/vscode-stylus/master/images/stylusIcon.png)
+![logo](images/stylusIcon.png)
 
 ## Stylus Language Support for Visual Studio Code
 The only extension you'll ever need for Stylus support in Visual Studio Code.
@@ -7,9 +7,11 @@ The only extension you'll ever need for Stylus support in Visual Studio Code.
 If you would love to use VS Code, but the lack of Stylus support was a stumbling block for you, now you can take advantage of the Stylus Language Support extension for Visual Studio Code.
 
 ## Installing
+  ![howto](images/vscode-stylus-howto.gif)
+
 - Open Visual Studio Code, then press `F1` and type `ext`.
 - When you see the option `Extensions: Install Extension`, select it.
-- Type `Stylus` and choose the `Stylus Language Support` extension
+- Type `stylus` and choose the extension created by Vitor Buzinaro
 
 ## Features
 - Coloring
