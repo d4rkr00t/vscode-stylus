@@ -14,6 +14,11 @@
   "activationEvents": [
     "onCommand:extension.sayHello"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/buzinas/vscode-stylus.git"
+  },
+  "icon": "images/vscode-stylus.png",
   "main": "./out/src/extension",
   "contributes": {
     "languages": [
