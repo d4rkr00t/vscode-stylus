@@ -3,7 +3,7 @@
   "description": "Stylus Language Support for Visual Studio Code",
   "version": "0.1.0",
   "author": "Vitor Buzinaro",
-  "publisher": "Vitor Buzinaro",
+  "publisher": "buzinas",
   "engines": {
     "vscode": "^0.10.1"
   },
