@@ -41,7 +41,7 @@ As soon as your issue is accepted, if you wanna help with the development, you m
   - Interfaces: `interface IVirtualFileOptions { }`
   - Constant literals: `const FILE_NAME = 'stylus.styl';`
   - Methods, functions, variables, parameters: `function getFileNames(path: string): Array<string>`
-  - Casting: `
+  - Casting: `let token = (node as ts.BinaryExpression).operatorToken;`
   - All the other `tslint` specified conventions
 - Write/modify the tests according to the new feature/fix you're going to code
 - Make any needed changes/adjustments to fit the issue description
