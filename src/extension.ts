@@ -14,4 +14,8 @@ export function activate(context: vscode.ExtensionContext) {
 //       "title": "Hello World"
 //     }
 //   ],
+//
+//   "activationEvents": [
+//     "onCommand:extension.sayHello"
+//   ],
 }
