@@ -22,7 +22,7 @@
   ],
   "icon": "images/stylusIcon.png",
   "license": "MIT",
-  "main": "./out/src/extension",
+  "main": "./out/src/main",
   "contributes": {
     "languages": [
       {
